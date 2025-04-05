@@ -1,9 +1,9 @@
 
 import React, { useState } from "react"
-import Navbar from "./Navbar"
-import Sidebar from "./Sidebar"
-import CandidateList from "./CandidateList"
-import ChatWindow from "./ChatWindow"
+import Navbar from "./Navbar.jsx"
+import Sidebar from "./Sidebar.jsx"
+import CandidateList from "./CandidateList.jsx"
+import ChatWindow from "./ChatWindow.jsx"
 
 export default function Chat() {
   const [selectedCandidate, setSelectedCandidate] = useState(null)
