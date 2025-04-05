@@ -10,7 +10,8 @@ import img5 from "../assets/image (1).png";
 import img6 from "../assets/image (2).png";
 import img7 from "../assets/image (3).png";
 import img8 from "../assets/image (4).png";
-import img9 from "../assets/hello1.png";
+import img9 from "../assets/image (5).png";
+import img10 from "../assets/hello1.png";
 
 const DashboardContent = () => {
     const interviewImages = [img5, img6, img7, img8, img9];
@@ -50,9 +51,10 @@ const DashboardContent = () => {
                             <h2 className="text-lg font-semibold">Recently Posted Job (36)</h2>
                             <div className="flex items-center">
                                 <span className="mr-2">Today</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                    <polyline points="6 9 12 15 18 9" />
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                    <polyline points="4 6 8 10 12 6" />
                                 </svg>
+
                             </div>
                         </div>
 
@@ -97,9 +99,10 @@ const DashboardContent = () => {
                                 <h2 className="text-lg font-semibold">Upcoming Interviews</h2>
                                 <div className="flex items-center">
                                     <span className="mr-2">Select Job</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                        <polyline points="6 9 12 15 18 9" />
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                        <polyline points="4 6 8 10 12 6" />
                                     </svg>
+
                                 </div>
                             </div>
 
@@ -137,7 +140,7 @@ const DashboardContent = () => {
                             <div className=" rounded-lg shadow mb-6">
                                 <div className="flex justify-between p-4">
                                     <h2 className="text-lg font-normal">Recent Job Post Performance</h2>
-                                    <button><img src={img9} /></button>
+                                    <button><img src={img10} /></button>
                                 </div>
                                 <div className="p-4 flex items-center">
                                     <div className="w-1/2 flex justify-center">
@@ -164,7 +167,7 @@ const DashboardContent = () => {
                             <div className=" rounded-lg shadow">
                                 <div className="flex justify-between p-4">
                                     <h2 className="text-lg font-normal">Application Status Breakdown</h2>
-                                    <button><img src={img9} /></button>
+                                    <button><img src={img10} /></button>
                                 </div>
                                 <div className="p-4 flex items-center">
                                     <div className="w-1/2 flex justify-center">

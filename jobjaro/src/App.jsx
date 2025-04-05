@@ -3,6 +3,7 @@ import TeamMembers from "./components/TeamMembers.jsx";
 import Dashboard from "./components/Dashboard.jsx";
 import Insights from "./components/Insights.jsx";
 import ResumeParserPage from "./components/CvBuilder.jsx";
+import Chat from "./components/Chat.jsx";
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
                 <Route path="/team-members" element={<TeamMembers />} />
                 <Route path="/insights" element={<Insights />} />
                 <Route path="/resume-parser" element={<ResumeParserPage />} />
+                <Route path="/chat" element={<Chat />} />
                 {/* Add more routes as needed */}
             </Routes>
        </Router>
