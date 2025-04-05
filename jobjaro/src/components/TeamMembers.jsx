@@ -22,7 +22,7 @@ export default function TeamMembers() {
     const categories = [
         { title: "SUB-ADMIN", color: "bg-[#FFF1D7]", textColor: "bg-[#FCA917]", count: 20 },
         { title: "JOB POSTING ACCESS", color: "bg-[#EEDFFE]", textColor: "bg-[#571BAD]", count: 20 },
-        { title: "TEST MANAGEMENT ACCESS", color: "bg-[#D0E7FF]", textColor: "bg-[#007AFF]", count: 20 },
+        { title: "TEST MANAGEMENT ", color: "bg-[#D0E7FF]", textColor: "bg-[#007AFF]", count: 20 },
         { title: "INTERVIEW ACCESS", color: "bg-[#B5EDD8]", textColor: "bg-[#15BB8A]", count: 20 },
         { title: "VIEW ACCESS", color: "bg-[#F9DCDD]", textColor: "bg-[#E71F26]", count: 20 },
     ];
