@@ -25,7 +25,7 @@ const DashboardContent = () => {
                 <div className="p-6 w-full">
                     {/* Overview Section */}
                     <div className="mb-6">
-                        <h2 className="text-lg font-semibold mb-4">Overview</h2>
+                        <h2 className="text-lg -ml-2 font-semibold mb-4">Overview</h2>
                         <div className="flex gap-2 flex-wrap">
                             {[{ img: img1, label: 'Active Jobs', count: 50 },
                                 { img: img2, label: 'New Application', count: 42 },
@@ -48,7 +48,7 @@ const DashboardContent = () => {
                     {/* Recently Posted Jobs Section */}
                     <div className="rounded-lg mb-6">
                         <div className="flex justify-between p-4">
-                            <h2 className="text-lg font-semibold">Recently Posted Job (36)</h2>
+                            <h2 className="text-lg -ml-4 font-semibold">Recently Posted Job (36)</h2>
                             <div className="flex items-center">
                                 <span className="mr-2">Today</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -73,11 +73,11 @@ const DashboardContent = () => {
                                                 <div>Expires: 20 July 2020</div>
                                             </div>
                                         </div>
-                                        <div className="grid grid-cols-5 gap-4 text-center">
+                                        <div className="grid grid-cols-5 gap-4.5 text-center">
                                             {['Applicants', 'New', 'Received', 'Rejected', 'Hired'].map((label, idx) => (
                                                 <div key={idx}>
-                                                    <div className="text-sm text-gray-500">{label}</div>
-                                                    <div className="font-semibold bg-gray-200 w-12 h-12 rounded-lg mt-2 flex items-center justify-center">20</div>
+                                                    <div className="text-xs text-gray-500">{label}</div>
+                                                    <div className="font-semibold bg-gray-200 w-14 h-14 rounded-lg mt-2 flex items-center justify-center">20</div>
                                                 </div>
                                             ))}
                                         </div>
