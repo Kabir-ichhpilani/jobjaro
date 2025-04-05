@@ -16,8 +16,8 @@ const ResumeParserPage = () => {
     <div className="bg-gray-100 max-w-[1280px] p-6">
       <div className="bg-white rounded-lg shadow mb-8 p-8">
         {/* Header Section */}
-        <div className="flex px-8 py-4 flex-col lg:flex-row gap-40 content-between justify-between">
-          <div className="lg:col-span-2">
+        <div className="flex px-2 py-4 flex-col lg:flex-row  content-between justify-between">
+          <div className="lg:col-span-2 lg:-ml-4">
             <h1 className="text-4xl font-bold max-w-[700px] text-purple-900 mb-4">
               The Most Advanced and Accurate<br />
               AI Resume Parser
@@ -29,7 +29,7 @@ const ResumeParserPage = () => {
 
             <h2 className="text-xl font-normal mb-4">Steps to use our resume parsing software</h2>
 
-            <div className="flex flex-col md:flex-row items-center justify-between">
+            <div className="flex flex-col md:flex-row items-center">
               <div className="flex flex-row items-center text-center mb-4 md:mb-0">
                 <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-2">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-[#4e0684]">
@@ -80,7 +80,7 @@ const ResumeParserPage = () => {
             </div>
           </div>
 
-          <div className="lg:col-span-1  shadow-2xl lg:w-[320px] rounded-lg bg-white p-3 mt-8 lg:mt-0">
+          <div className="lg:col-span-1  shadow-2xl lg:w-[320px] ml-3 rounded-lg bg-white p-3  mt-8 lg:mt-0">
             <div className="border border-dashed border-purple-700 rounded-lg p-6 text-center">
               <h3 className="font-semibold mb-4">START PARSING NOW!</h3>
               <div className="flex justify-center mb-4">
