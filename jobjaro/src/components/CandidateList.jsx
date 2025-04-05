@@ -9,7 +9,7 @@ import onemessage from "../assets/onemessage.png"
 // error
 import jasminn from "../assets/Jasmin.png"
 import jacob from "../assets/Jacob.png"
-import conner from "../assets/conner.png"
+import conner from "../assets/Conner.png"
 import coloureddoubletick from "../assets/coloureddoubletick.png"
 import Anthony from "../assets/Anthony.png"
 import vanessa from "../assets/vanessa.png"
