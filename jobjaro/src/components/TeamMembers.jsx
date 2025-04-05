@@ -22,7 +22,7 @@ export default function TeamMembers() {
     const categories = [
         { title: "SUB-ADMIN", color: "bg-[#FFF1D7]", textColor: "bg-[#FCA917]", count: 20 },
         { title: "JOB POSTING ACCESS", color: "bg-[#EEDFFE]", textColor: "bg-[#571BAD]", count: 20 },
-        { title: "TEST MANAGEMENT ", color: "bg-[#D0E7FF]", textColor: "bg-[#007AFF]", count: 20 },
+        { title: "TEST MANAGEMENT ACCESS", color: "bg-[#D0E7FF]", textColor: "bg-[#007AFF]", count: 20 },
         { title: "INTERVIEW ACCESS", color: "bg-[#B5EDD8]", textColor: "bg-[#15BB8A]", count: 20 },
         { title: "VIEW ACCESS", color: "bg-[#F9DCDD]", textColor: "bg-[#E71F26]", count: 20 },
     ];
@@ -42,7 +42,7 @@ export default function TeamMembers() {
             { name: "John Doe", email: "hao-john82@gmail.com" },
 
         ],
-        "TEST MANAGEMENT": [
+        "TEST MANAGEMENT ACCESS": [
             { name: "Gina Steuber", email: "hao-gina50@gmail.com" },
             { name: "Jane Foster", email: "hao-jane69@gmail.com" },
 
@@ -93,11 +93,11 @@ export default function TeamMembers() {
                     </div>
                 </div>
 
-                <div className="px-4 md:px-6 lg:px-8 pb-6 mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+                <div className="px-4 md:px-8 lg:px-8 pb-6 mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                     {categories.map((category, idx) => (
                         <div key={idx} className="flex flex-col">
-                            <div className={`${category.color} text-black  px-4 py-1.5  flex items-center rounded-md justify-between`}>
-                                <span className="text-xs font-semibold">{category.title}</span>
+                            <div className={`${category.color} text-black  px-[15px] py-1.5  flex items-center rounded-md justify-between`}>
+                                <span className="text-[11px] font-semibold">{category.title}</span>
                                 <span className={`${category.textColor} text-white  rounded-lg px-2 py-0.5 text-xs`}>{category.count}</span>
                             </div>
                             <div className="bg-transparent mt-2 rounded-b-lg  ">
