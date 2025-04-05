@@ -9,7 +9,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <nav className="py-3 px-4 lg:px-6 flex items-center justify-between  relative z-50" >
+        <nav className="py-3 px-4 lg:px-6 flex items-center justify-between bg-gray-50 relative z-50" >
             {/* Logo and Brand */}
             <div className="flex items-center">
                 <div className="flex items-center mr-4">
