@@ -1,7 +1,7 @@
 
 import React, { useState } from "react"
 import Navbar from "./Navbar.jsx"
-import Sidebar from "./Sidebar.jsx"
+import Sidebar from "./SideBar.jsx";
 import CandidateList from "./CandidateList.jsx"
 import ChatWindow from "./ChatWindow.jsx"
 
