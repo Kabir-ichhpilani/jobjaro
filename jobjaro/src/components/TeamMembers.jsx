@@ -42,7 +42,7 @@ export default function TeamMembers() {
             { name: "John Doe", email: "hao-john82@gmail.com" },
 
         ],
-        "TEST MANAGEMENT ACCESS": [
+        "TEST MANAGEMENT": [
             { name: "Gina Steuber", email: "hao-gina50@gmail.com" },
             { name: "Jane Foster", email: "hao-jane69@gmail.com" },
 
